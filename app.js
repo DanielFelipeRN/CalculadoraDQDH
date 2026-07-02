@@ -43,7 +43,7 @@ function calcular() {
     resDiv.classList.remove('hidden');
     resDiv.innerHTML = `
         <div class="flex justify-between border-b pb-2"><span>Costo Unitario:</span> <span class="font-bold">$${costoTotalUnitario.toFixed(2)}</span></div>
-        <div class="flex justify-between border-b pb-2"><span>Ganancia Total:</span> <span class="font-bold text-green-600">$${gananciaUnitario.toFixed(2)}</span></div>
+        <div class="flex justify-between border-b pb-2"><span>Ganancia Unitario:</span> <span class="font-bold text-green-600">$${gananciaUnitario.toFixed(2)}</span></div>
         <div class="flex justify-between border-b pb-2"><span>Costo Total:</span> <span class="font-bold text-red-600">$${costoTotalProduccion.toFixed(2)}</span></div>
         <div class="flex justify-between border-b pb-2"><span>Ganancia Total:</span> <span class="font-bold text-green-600">$${gananciaTotal.toFixed(2)}</span></div>
         <div class="flex justify-between pt-2"><span>Precio Sugerido:</span> <span class="font-bold text-blue-600">$${precioVentaSugerido.toFixed(2)}</span></div>
